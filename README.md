@@ -16,6 +16,7 @@ De plus, comme ces fonctions de chiffrement sont symmétriques (l'algorithme est
 
 Revenez sur votre exercice 2 contenant les fonctions de chiffrement.
 Créez une nouvelle branche nommée `bonus`.
+Gardéz cette branche séparée, je ne vous demande pas de la fusionner à la branche `master`.
 Sur cette branche, mofifiez votre code pour que toutes les fonctions sauf la fonction `chiffre_Vigenere` soit implémentées en terme des autres fonctions suivant ce tableau :
 
 | Fonction | Fait appel à |
@@ -29,3 +30,5 @@ Sur cette branche, mofifiez votre code pour que toutes les fonctions sauf la fon
 | `dechiffre_Vigenere_flux_texte` | `chiffre_Vigenere_flux_texte` |
 
 Bien entendu, pour certaines des fonctions de déchiffrage, il vous faudra «inverser» la clé donnée avant de faire appel à la fonction demandée.
+Assurez-vous évidemment que tous les tests passent à 100%.
+
