@@ -7,7 +7,7 @@ Par exemple, si `f(n) = n * 2` et `g(n) = n * 2 + 3`, il est préférable de red
 Ainsi, nous profitons du fait que la multiplication de `n` n'est implémentée qu'à un seul endroit.
 Le code écrit une seule fois est, du fait, utilisé plusieurs fois.
 
-Les fonctions de chiffrement que vous avez implémentées pour l'exercice 2 offre cette possibilité.
+Les fonctions de chiffrement que vous avez implémentées pour l'exercice 2 offrent cette possibilité.
 Reconnaissez que le chiffrement de César n'est en fait qu'un cas particulier du chiffrement de Vigenère.
 De même, le chiffrement ROT13 n'est qu'un cas particulier du chiffrement César.
 De plus, comme ces fonctions de chiffrement sont symmétriques (l'algorithme est essentiellement le même que l'on chiffre ou que l'on déchiffre), il est possible d'opérer une opération de déchiffrage en faisant appel à la fonction de chiffrage et en ajustant la clé donnée de sorte que le chiffrage produise un effet de déchiffrage !
@@ -30,5 +30,5 @@ Sur cette branche, mofifiez votre code pour que toutes les fonctions sauf la fon
 | `dechiffre_Vigenere_flux_texte` | `chiffre_Vigenere_flux_texte` |
 
 Bien entendu, pour certaines des fonctions de déchiffrage, il vous faudra «inverser» la clé donnée avant de faire appel à la fonction demandée.
-Assurez-vous évidemment que tous les tests passent à 100%.
+Assurez-vous évidemment que tous les tests passent toujours à 100%.
 
