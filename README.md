@@ -14,6 +14,8 @@ De plus, comme ces fonctions de chiffrement sont symmétriques (l'algorithme est
 
 ## Objectif
 
+**Avant de commencer ce bonus, votre exercice 2 doit être complété et passer les tests à 100%.**
+
 Revenez sur votre exercice 2 contenant les fonctions de chiffrement.
 Créez une nouvelle branche nommée `bonus`.
 Gardez cette branche séparée; je ne vous demande pas de la fusionner à la branche `master`.
